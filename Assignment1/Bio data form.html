@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<!--Lsdsf sddr-->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BIO DATA FORM</title>
+
+</head>
+<body>
+    <h1>My Bio Data</h1>
+    <form action="" method="POST">
+    <fieldset>
+        <legend>Personal Information</legend>
+            <label for="firstname">FirstName</label>
+            <input type="text" id="firstname" name="firstname">
+            <br>
+            <br>
+            <label for="lastname">LastName</label>
+            <input type="text" id="lastname" name="lasttname">
+            <br>
+            <br>
+            <label for="address">Address:</label>&nbsp;
+             <textarea cols="30" rows="4" id="address" name="note">Enter Address here</textarea>
+             <br>
+            <br>
+            
+            <label for="pincode">PinCode:</label>
+            <input type="tel" maxlength="6" id="pincode" placeholder="Enter six digit pincode">
+            <br>
+            <br>
+            <label for="male">Male:</label>
+            <input type="radio" id="male" name="gender">
+            
+            <label for="female">Female:</label>
+            <input type="radio" id="female" name="gender" >
+            
+            <label for="other">Other:</label>
+            <input type="radio" id="other" name="gender" >
+            <br>
+            <br>
+            
+            <label for="DOB">Date Of Birth:</label>
+            <input type="date" id="DOB" >
+            <br>
+            <br>
+            
+            <label for="E-mail">E-mail:</label>
+            <input type="email" id="E-mail" placeholder="Enter your email" required >
+            <br>
+            <br>
+            
+            <label for="phone_number">Phone:</label>
+            <input type="tel" id="phone_number" maxlength="10" placeholder="Enter 10 digits phone no." required >
+            <br>
+            <br>
+            
+            <label for="height">Height:</label>
+            <input type="number" id="height"  placeholder="Enter height in feet" >
+     </fieldset>
+        <fieldset>
+         <legend>Education</legend>
+         <label for="schoolname">SchoolName:</label>
+         <input type="text" id="schoolname">
+         <br>
+         <br>
+         <label for="class">Class:</label>
+         <input type="number" id="class">
+         <br>
+         <br>
+         <label for="Stream">Stream:</label>
+         <select name="Stream" id="Stream">
+             <option>Select Stream</option>
+             <option>Science</option>
+             <option>Arts</option>
+             <option>Commerce</option>
+         </select>
+         <br>
+         <br>
+         <label for="marksheet">Marksheet:</label>
+         <input type="file" id="marksheet">
+
+        </fieldset>
+     <input type="submit">
+</form>
+
+  
+
+    
+</body>
+</html>
